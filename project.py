@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy import signal
 import streamlit as st
 
-# 전달함수 정의
+# 전달함수
 num = [100]
 den = [1, 5, 6]
 G = signal.TransferFunction(num, den)
@@ -28,7 +28,7 @@ bode_axes.set_ylabel('Magnitude [dB]')
 bode_axes.set_title('Bode Plot - Magnitude')
 
 # Streamlit 앱
-st.title('Control Systems Analysis')
+st.title('제어공학 기말 과제')
 st.header('201921034 김주원')
 
 # 폐루프 전달함수 출력
