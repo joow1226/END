@@ -2,6 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
 import streamlit as st
+import matplotlib.pyplot as plt
+
+plt.savefig('images/plot.png')
+
 
 # 전달함수
 num = [100]
